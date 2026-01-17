@@ -119,7 +119,7 @@ main {
   }
 
   .jason {
-    @apply relative z-10 lg:ps-40 2xl:ps-80 ps-10 py-40 mt-60 flex lg:flex-row flex-col justify-between gap-5 w-dvw overflow-x-hidden;
+    @apply relative z-10 lg:ps-40 2xl:ps-70 ps-10 py-40 mt-60 flex lg:flex-row flex-col justify-between gap-5 w-dvw overflow-x-hidden;
 
     h1 {
       @apply text-yellow font-long uppercase text-8xl mb-20;
@@ -134,7 +134,7 @@ main {
     }
 
     .jason-1 {
-      @apply bg-yellow lg:h-[80vh] w-auto -translate-x-5;
+      @apply bg-yellow lg:h-[100vh] w-auto -translate-x-5;
 
       img {
         @apply size-full object-cover [object-position:5%_center] hover:scale-[0.98] transition duration-700 ease-in-out;
@@ -142,7 +142,7 @@ main {
     }
 
     .jason-2 {
-      @apply bg-yellow h-[90vh] w-auto md:mt-36 mt-20 -translate-x-5;
+      @apply bg-yellow h-[100vh] w-auto md:mt-16 mt-10 -translate-x-5;
 
       img {
         @apply size-full object-cover [object-position:80%_center] hover:scale-x-[0.97] hover:scale-y-[0.98] transition duration-700 ease-in-out;

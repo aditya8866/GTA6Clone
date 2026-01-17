@@ -13,7 +13,7 @@ const FirstVideo = () => {
                 trigger:'.first-vd-wrapper',
                 start : 'top top',
                 end : '+=200% top',
-                scrub : 2.5,
+                scrub : 2.50,
                 pin: true  
             }
 
